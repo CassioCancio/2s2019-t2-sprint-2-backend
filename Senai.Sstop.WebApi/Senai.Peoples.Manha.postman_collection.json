@@ -1,0 +1,156 @@
+{
+	"id": "b7dc3973-b952-6d64-d1b6-c086287814bb",
+	"name": "Senai.Peoples.Manha",
+	"description": "",
+	"order": [],
+	"folders": [
+		{
+			"name": "Funcionarios",
+			"description": "",
+			"collectionId": "b7dc3973-b952-6d64-d1b6-c086287814bb",
+			"order": [
+				"a3f062ab-0af9-7406-c536-eaa0ce9f8ff2",
+				"ccab7029-cfae-85a1-4b1e-b2216032c84a",
+				"1d8931a3-6aac-82fd-4f74-f3e0677227ca",
+				"5a525be2-ca57-5ec2-e8c6-a485863852a6",
+				"13322205-013d-4e8c-3944-a54636ce12a3"
+			],
+			"owner": 0,
+			"folders_order": [],
+			"id": "6298037c-211f-d3e6-e377-d54851c61b41"
+		}
+	],
+	"folders_order": [
+		"6298037c-211f-d3e6-e377-d54851c61b41"
+	],
+	"timestamp": 1566391512707,
+	"owner": 0,
+	"public": false,
+	"requests": [
+		{
+			"id": "13322205-013d-4e8c-3944-a54636ce12a3",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost:64149/api/funcionarios/5",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "DELETE",
+			"data": null,
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1566394707772,
+			"name": "Funcionarios.Deletar",
+			"description": "",
+			"collectionId": "b7dc3973-b952-6d64-d1b6-c086287814bb",
+			"responses": []
+		},
+		{
+			"id": "1d8931a3-6aac-82fd-4f74-f3e0677227ca",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost:64149/api/funcionarios/1",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1566394312909,
+			"name": "Funcionarios.BuscarPorId",
+			"description": "",
+			"collectionId": "b7dc3973-b952-6d64-d1b6-c086287814bb",
+			"responses": []
+		},
+		{
+			"id": "5a525be2-ca57-5ec2-e8c6-a485863852a6",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:64149/api/funcionarios/3",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "PUT",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1566394609920,
+			"name": "Funcionarios.Alterar",
+			"description": "",
+			"collectionId": "b7dc3973-b952-6d64-d1b6-c086287814bb",
+			"responses": [],
+			"rawModeData": "{\n\t\"nome\" : \"Cassio\"\n}"
+		},
+		{
+			"id": "a3f062ab-0af9-7406-c536-eaa0ce9f8ff2",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost:64149/api/funcionarios",
+			"folder": "6298037c-211f-d3e6-e377-d54851c61b41",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1566393238560,
+			"name": "Funcionarios.Listar",
+			"description": "",
+			"collectionId": "b7dc3973-b952-6d64-d1b6-c086287814bb",
+			"responses": [],
+			"isFromCollection": true,
+			"collectionRequestId": "a3f062ab-0af9-7406-c536-eaa0ce9f8ff2"
+		},
+		{
+			"id": "ccab7029-cfae-85a1-4b1e-b2216032c84a",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:64149/api/funcionarios",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1566393946507,
+			"name": "Funcionarios.Cadastrar",
+			"description": "",
+			"collectionId": "b7dc3973-b952-6d64-d1b6-c086287814bb",
+			"responses": [],
+			"rawModeData": "{\n\t\"nome\" : \"Cassio\",\n\t\"sobrenome\" : \"Cancio\"\n}"
+		}
+	]
+}

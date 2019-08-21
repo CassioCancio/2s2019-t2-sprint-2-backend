@@ -1,0 +1,14 @@
+C:\Users\42720780898\Desktop\manha\Senai.M_Filmes.WebApi\Senai.M_Filmes.WebApi\bin\Debug\netcoreapp2.1\Senai.M_Filmes.WebApi.deps.json
+C:\Users\42720780898\Desktop\manha\Senai.M_Filmes.WebApi\Senai.M_Filmes.WebApi\bin\Debug\netcoreapp2.1\Senai.M_Filmes.WebApi.runtimeconfig.json
+C:\Users\42720780898\Desktop\manha\Senai.M_Filmes.WebApi\Senai.M_Filmes.WebApi\bin\Debug\netcoreapp2.1\Senai.M_Filmes.WebApi.runtimeconfig.dev.json
+C:\Users\42720780898\Desktop\manha\Senai.M_Filmes.WebApi\Senai.M_Filmes.WebApi\bin\Debug\netcoreapp2.1\Senai.M_Filmes.WebApi.dll
+C:\Users\42720780898\Desktop\manha\Senai.M_Filmes.WebApi\Senai.M_Filmes.WebApi\bin\Debug\netcoreapp2.1\Senai.M_Filmes.WebApi.pdb
+C:\Users\42720780898\Desktop\manha\Senai.M_Filmes.WebApi\Senai.M_Filmes.WebApi\obj\Debug\netcoreapp2.1\Senai.M_Filmes.WebApi.csprojAssemblyReference.cache
+C:\Users\42720780898\Desktop\manha\Senai.M_Filmes.WebApi\Senai.M_Filmes.WebApi\obj\Debug\netcoreapp2.1\Senai.M_Filmes.WebApi.csproj.CoreCompileInputs.cache
+C:\Users\42720780898\Desktop\manha\Senai.M_Filmes.WebApi\Senai.M_Filmes.WebApi\obj\Debug\netcoreapp2.1\Senai.M_Filmes.WebApi.RazorAssemblyInfo.cache
+C:\Users\42720780898\Desktop\manha\Senai.M_Filmes.WebApi\Senai.M_Filmes.WebApi\obj\Debug\netcoreapp2.1\Senai.M_Filmes.WebApi.RazorAssemblyInfo.cs
+C:\Users\42720780898\Desktop\manha\Senai.M_Filmes.WebApi\Senai.M_Filmes.WebApi\obj\Debug\netcoreapp2.1\Senai.M_Filmes.WebApi.AssemblyInfoInputs.cache
+C:\Users\42720780898\Desktop\manha\Senai.M_Filmes.WebApi\Senai.M_Filmes.WebApi\obj\Debug\netcoreapp2.1\Senai.M_Filmes.WebApi.AssemblyInfo.cs
+C:\Users\42720780898\Desktop\manha\Senai.M_Filmes.WebApi\Senai.M_Filmes.WebApi\obj\Debug\netcoreapp2.1\Senai.M_Filmes.WebApi.RazorTargetAssemblyInfo.cache
+C:\Users\42720780898\Desktop\manha\Senai.M_Filmes.WebApi\Senai.M_Filmes.WebApi\obj\Debug\netcoreapp2.1\Senai.M_Filmes.WebApi.dll
+C:\Users\42720780898\Desktop\manha\Senai.M_Filmes.WebApi\Senai.M_Filmes.WebApi\obj\Debug\netcoreapp2.1\Senai.M_Filmes.WebApi.pdb
