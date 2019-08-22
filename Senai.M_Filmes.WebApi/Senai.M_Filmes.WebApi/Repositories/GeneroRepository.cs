@@ -146,5 +146,48 @@ namespace Senai.M_Filmes.WebApi.Repositories
             }
         }
 
+        public List<FilmeDomain> BuscarPorIdGenero(int id)
+        {
+
+            List<FilmeDomain> filmes = new List<FilmeDomain>();
+
+            string Query = "SELECT F.IdFilme, F.Titulo, F.IdGenero, G.Nome FROM Filmes F INNER JOIN Generos G ON G.IdGenero = F.IdGenero WHERE G.IdGenero = @Id";
+
+            // aonde, em qual local
+            using (SqlConnection con = new SqlConnection(StringConexao))
+            {
+                con.Open();
+                SqlDataReader sdr;
+
+                using (SqlCommand cmd = new SqlCommand(Query, con))
+                {
+                    cmd.Parameters.AddWithValue("@Id", id);
+                    sdr = cmd.ExecuteReader();
+
+                    if (sdr.HasRows)
+                    {
+                        while (sdr.Read())
+                        {
+                            FilmeDomain filme = new FilmeDomain
+                            {
+                                IdFilme = Convert.ToInt32(sdr["IdFilme"]),
+                                Titulo = sdr["Titulo"].ToString(),
+                                Genero = new GeneroDomain
+                                {
+                                    IdGenero = Convert.ToInt32(sdr["IdGenero"]),
+                                    Nome = sdr["Nome"].ToString()
+                                }
+                            };
+                                filmes.Add(filme);
+                            return filmes;
+                        }
+                    }
+
+                    return null;
+                }
+            }
+
+        }
+
     }
 }

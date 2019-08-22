@@ -18,10 +18,16 @@ namespace Senai.M_Filmes.WebApi
             services.AddMvc().SetCompatibilityVersion(
                 Microsoft.AspNetCore.Mvc.CompatibilityVersion.Version_2_1);
 
+            services.AddSwaggerGen(c =>
+            {
+                c.SwaggerDoc("v1", new Swashbuckle.AspNetCore.Swagger.Info { Title = "M_Filmes API", Version = "v1" });
+            });
+
             services.AddCors(options =>
             {
                 options.AddPolicy("CorsPolicy", builder => builder.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader().AllowCredentials());
             });
+            
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -33,6 +39,13 @@ namespace Senai.M_Filmes.WebApi
             }
 
             app.UseCors("CorsPolicy");
+
+            app.UseSwagger();
+
+            app.UseSwaggerUI(c =>
+            {
+                c.SwaggerEndpoint("/swagger/v1/swagger.json", "M_Filmes API V1");
+            });
 
             app.UseMvc();
         }

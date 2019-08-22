@@ -59,9 +59,10 @@ namespace Senai.M_Filmes.WebApi.Controllers
         // PUT /api/generos
         // { "idGeneroMusical" : "", "nome" : ""}
         // PUT /api/generos/1 {"nome" : "Genero A"}
-        [HttpPut]
-        public IActionResult Atualizar(GeneroDomain generoDomain)
+        [HttpPut("{id}")]
+        public IActionResult Atualizar(int id, GeneroDomain generoDomain)
         {
+            generoDomain.IdGenero = id;
             GeneroRepository.Alterar(generoDomain);
             return Ok();
         }
@@ -81,6 +82,19 @@ namespace Senai.M_Filmes.WebApi.Controllers
         //    return "Requisição Recebida";
         //}
 
+        [HttpGet("{id}/filmes")]
+        public IActionResult BuscarPorIdGenero(int id)
+        {
+            // lista fixa
+            // GeneroDomain Genero = generos.Find(x => x.IdGenero == id);
 
+            // do banco de dados
+            List<FilmeDomain> filmes = GeneroRepository.BuscarPorIdGenero(id);
+            if (filmes == null)
+            {
+                return NotFound();
+            }
+            return Ok(filmes);
+        }
     }
 }

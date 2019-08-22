@@ -39,6 +39,17 @@ namespace Senai.Peoples.WebApi.Controllers
             return Ok(Genero);
         }
 
+        [HttpGet("{nome}")]
+        public IActionResult BuscarPorNome(string nome)
+        {
+            FuncionarioModel Genero = funcionarioRepository.BuscarPorNome(nome);
+            if (Genero == null)
+            {
+                return NotFound();
+            }
+            return Ok(Genero);
+        }
+
         [HttpPut("{id}")]
         public IActionResult Atualizar(int id, FuncionarioModel funcionarioModel)
         {

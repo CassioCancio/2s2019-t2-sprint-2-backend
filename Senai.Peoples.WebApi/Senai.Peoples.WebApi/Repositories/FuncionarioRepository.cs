@@ -90,6 +90,40 @@ namespace Senai.Peoples.WebApi.Repositories
 
         }
 
+        public FuncionarioModel BuscarPorNome(string nome)
+        {
+            string Query = "SELECT IdFuncionario, Nome, Sobrenome FROM Funcionarios WHERE Nome = @nome";
+
+            using (SqlConnection con = new SqlConnection(StringConexao))
+            {
+                con.Open();
+                SqlDataReader sdr;
+
+                using (SqlCommand cmd = new SqlCommand(Query, con))
+                {
+                    cmd.Parameters.AddWithValue("@nome", nome);
+                    sdr = cmd.ExecuteReader();
+
+                    if (sdr.HasRows)
+                    {
+                        while (sdr.Read())
+                        {
+                            FuncionarioModel funcionario = new FuncionarioModel
+                            {
+                                IdFuncionario = Convert.ToInt32(sdr["IdFuncionario"]),
+                                Nome = sdr["Nome"].ToString(),
+                                Sobrenome = sdr["Sobrenome"].ToString()
+                            };
+                            return funcionario;
+                        }
+                    }
+
+                    return null;
+                }
+            }
+
+        }
+
         public void Alterar(FuncionarioModel funcionarioModel)
         {
             string Query = "UPDATE Funcionarios SET Nome = @Nome WHERE IdFuncionario = @IdFuncionario";
