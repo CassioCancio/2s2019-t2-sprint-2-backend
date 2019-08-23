@@ -1,0 +1,14 @@
+C:\Users\42720780898\Desktop\2s2019-t2-sprint-2-backend\Senai.BookStore.WebApi\Senai.BookStore.WebApi\bin\Debug\netcoreapp2.1\Senai.M_BookStore.WebApi.deps.json
+C:\Users\42720780898\Desktop\2s2019-t2-sprint-2-backend\Senai.BookStore.WebApi\Senai.BookStore.WebApi\bin\Debug\netcoreapp2.1\Senai.M_BookStore.WebApi.runtimeconfig.json
+C:\Users\42720780898\Desktop\2s2019-t2-sprint-2-backend\Senai.BookStore.WebApi\Senai.BookStore.WebApi\bin\Debug\netcoreapp2.1\Senai.M_BookStore.WebApi.runtimeconfig.dev.json
+C:\Users\42720780898\Desktop\2s2019-t2-sprint-2-backend\Senai.BookStore.WebApi\Senai.BookStore.WebApi\bin\Debug\netcoreapp2.1\Senai.M_BookStore.WebApi.dll
+C:\Users\42720780898\Desktop\2s2019-t2-sprint-2-backend\Senai.BookStore.WebApi\Senai.BookStore.WebApi\bin\Debug\netcoreapp2.1\Senai.M_BookStore.WebApi.pdb
+C:\Users\42720780898\Desktop\2s2019-t2-sprint-2-backend\Senai.BookStore.WebApi\Senai.BookStore.WebApi\obj\Debug\netcoreapp2.1\Senai.M_BookStore.WebApi.csprojAssemblyReference.cache
+C:\Users\42720780898\Desktop\2s2019-t2-sprint-2-backend\Senai.BookStore.WebApi\Senai.BookStore.WebApi\obj\Debug\netcoreapp2.1\Senai.M_BookStore.WebApi.csproj.CoreCompileInputs.cache
+C:\Users\42720780898\Desktop\2s2019-t2-sprint-2-backend\Senai.BookStore.WebApi\Senai.BookStore.WebApi\obj\Debug\netcoreapp2.1\Senai.M_BookStore.WebApi.RazorAssemblyInfo.cache
+C:\Users\42720780898\Desktop\2s2019-t2-sprint-2-backend\Senai.BookStore.WebApi\Senai.BookStore.WebApi\obj\Debug\netcoreapp2.1\Senai.M_BookStore.WebApi.RazorAssemblyInfo.cs
+C:\Users\42720780898\Desktop\2s2019-t2-sprint-2-backend\Senai.BookStore.WebApi\Senai.BookStore.WebApi\obj\Debug\netcoreapp2.1\Senai.M_BookStore.WebApi.AssemblyInfoInputs.cache
+C:\Users\42720780898\Desktop\2s2019-t2-sprint-2-backend\Senai.BookStore.WebApi\Senai.BookStore.WebApi\obj\Debug\netcoreapp2.1\Senai.M_BookStore.WebApi.AssemblyInfo.cs
+C:\Users\42720780898\Desktop\2s2019-t2-sprint-2-backend\Senai.BookStore.WebApi\Senai.BookStore.WebApi\obj\Debug\netcoreapp2.1\Senai.M_BookStore.WebApi.RazorTargetAssemblyInfo.cache
+C:\Users\42720780898\Desktop\2s2019-t2-sprint-2-backend\Senai.BookStore.WebApi\Senai.BookStore.WebApi\obj\Debug\netcoreapp2.1\Senai.M_BookStore.WebApi.dll
+C:\Users\42720780898\Desktop\2s2019-t2-sprint-2-backend\Senai.BookStore.WebApi\Senai.BookStore.WebApi\obj\Debug\netcoreapp2.1\Senai.M_BookStore.WebApi.pdb

@@ -1,0 +1,156 @@
+{
+	"id": "7925a485-3b85-1010-aade-b0a094964f6f",
+	"name": "Senai.M_BookStore.WebApi",
+	"description": "",
+	"order": [],
+	"folders": [
+		{
+			"name": "Autores",
+			"description": "",
+			"collectionId": "7925a485-3b85-1010-aade-b0a094964f6f",
+			"order": [
+				"156fa937-51b9-6053-9add-eeb2bbb3f023",
+				"951ac4a5-7de6-7622-6847-d74920c53fc6"
+			],
+			"owner": 0,
+			"folders_order": [],
+			"id": "098e6d47-ba2f-5e2b-5d74-bd0d517d1817"
+		},
+		{
+			"name": "Generos",
+			"description": "",
+			"collectionId": "7925a485-3b85-1010-aade-b0a094964f6f",
+			"order": [
+				"a4892275-7cff-8bf7-90ae-d2aaae5e79e1",
+				"b25b1b89-ef8c-2a4c-d746-d85a916ed768"
+			],
+			"owner": 0,
+			"folders_order": [],
+			"id": "32ca606e-c645-c0ee-77e5-36499b908e6a"
+		},
+		{
+			"name": "Livros",
+			"description": "",
+			"collectionId": "7925a485-3b85-1010-aade-b0a094964f6f",
+			"order": [],
+			"owner": 0,
+			"folders_order": [],
+			"id": "446032a1-d397-b1d0-d3f5-6483005332d7"
+		}
+	],
+	"folders_order": [
+		"098e6d47-ba2f-5e2b-5d74-bd0d517d1817",
+		"32ca606e-c645-c0ee-77e5-36499b908e6a",
+		"446032a1-d397-b1d0-d3f5-6483005332d7"
+	],
+	"timestamp": 1566568036804,
+	"owner": 0,
+	"public": false,
+	"requests": [
+		{
+			"id": "156fa937-51b9-6053-9add-eeb2bbb3f023",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost:51923/api/autores",
+			"folder": "32ca606e-c645-c0ee-77e5-36499b908e6a",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1566568421778,
+			"name": "Autores.Listar",
+			"description": "",
+			"collectionId": "7925a485-3b85-1010-aade-b0a094964f6f",
+			"responses": []
+		},
+		{
+			"id": "951ac4a5-7de6-7622-6847-d74920c53fc6",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:51923/api/autores",
+			"folder": "32ca606e-c645-c0ee-77e5-36499b908e6a",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1566569413710,
+			"name": "Autores.Cadastrar",
+			"description": "",
+			"collectionId": "7925a485-3b85-1010-aade-b0a094964f6f",
+			"responses": [],
+			"rawModeData": "{\n\t\"nome\" : \"Cleyson\",\n\t\"email\" : \"cleyson@gmail.com\",\n\t\"dataNascimento\" : \"1912-12-12T00:00:00\"\n}"
+		},
+		{
+			"id": "a4892275-7cff-8bf7-90ae-d2aaae5e79e1",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost:51923/api/generos",
+			"folder": "098e6d47-ba2f-5e2b-5d74-bd0d517d1817",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1566568192728,
+			"name": "Generos.Listar",
+			"description": "",
+			"collectionId": "7925a485-3b85-1010-aade-b0a094964f6f",
+			"responses": []
+		},
+		{
+			"id": "b25b1b89-ef8c-2a4c-d746-d85a916ed768",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:51923/api/generos",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1566568335567,
+			"name": "Generos.Cadastrar",
+			"description": "",
+			"collectionId": "7925a485-3b85-1010-aade-b0a094964f6f",
+			"responses": [],
+			"rawModeData": "{\n\t\"descricao\" : \"Infanto-Juvenil\"\n}"
+		}
+	]
+}
