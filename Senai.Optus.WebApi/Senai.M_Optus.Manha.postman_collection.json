@@ -1,0 +1,178 @@
+{
+	"id": "3fac4f62-5417-2632-8332-874688956d32",
+	"name": "Senai.M_Optus.Manha",
+	"description": "",
+	"order": [
+		"b347e14c-24a4-e281-1e66-5a92d80e2970"
+	],
+	"folders": [
+		{
+			"name": "Artistas",
+			"description": "",
+			"collectionId": "3fac4f62-5417-2632-8332-874688956d32",
+			"order": [
+				"967b90b2-8132-47a4-38eb-3dce3287b523",
+				"349352cb-390e-4cd8-1f45-6abfbfca8955"
+			],
+			"owner": 0,
+			"folders_order": [],
+			"id": "bfa3ba10-5169-6454-defc-bf5caa219a18"
+		},
+		{
+			"name": "Estilos",
+			"description": "",
+			"collectionId": "3fac4f62-5417-2632-8332-874688956d32",
+			"order": [
+				"c3eb4f4d-783b-d085-ac3e-e1325970027a",
+				"e54b5f9d-f41c-c124-c914-80c8fed483fa"
+			],
+			"owner": 0,
+			"folders_order": [],
+			"id": "6f15ae0a-e304-a3c0-3335-e61912dc6d0b"
+		}
+	],
+	"folders_order": [
+		"bfa3ba10-5169-6454-defc-bf5caa219a18",
+		"6f15ae0a-e304-a3c0-3335-e61912dc6d0b"
+	],
+	"timestamp": 1566828879957,
+	"owner": 0,
+	"public": false,
+	"requests": [
+		{
+			"id": "349352cb-390e-4cd8-1f45-6abfbfca8955",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:60962/api/artistas",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "3fac4f62-5417-2632-8332-874688956d32",
+			"data": [],
+			"dataMode": "raw",
+			"name": "Artistas.Cadastrar",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1566829171140,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"folder": "bfa3ba10-5169-6454-defc-bf5caa219a18",
+			"rawModeData": "{\n        \"nome\": \"Julia Michaels\",\n        \"idEstilo\": 3\n    }"
+		},
+		{
+			"id": "967b90b2-8132-47a4-38eb-3dce3287b523",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost:60962/api/artistas",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "3fac4f62-5417-2632-8332-874688956d32",
+			"data": null,
+			"dataMode": "params",
+			"name": "Artistas.Listar",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1566829078796,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"folder": "bfa3ba10-5169-6454-defc-bf5caa219a18"
+		},
+		{
+			"id": "b347e14c-24a4-e281-1e66-5a92d80e2970",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:60962/api/estilos",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "3fac4f62-5417-2632-8332-874688956d32",
+			"data": [],
+			"dataMode": "raw",
+			"name": "Estilos.Cadastrar",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1566829308829,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\n    \"nome\": \"Alternative\",\n},"
+		},
+		{
+			"id": "c3eb4f4d-783b-d085-ac3e-e1325970027a",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost:60962/api/estilos",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "3fac4f62-5417-2632-8332-874688956d32",
+			"data": null,
+			"dataMode": "params",
+			"name": "Estilos.Listar",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1566829226691,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"folder": "6f15ae0a-e304-a3c0-3335-e61912dc6d0b"
+		},
+		{
+			"id": "e54b5f9d-f41c-c124-c914-80c8fed483fa",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost:60962/api/estilos/2",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "DELETE",
+			"collectionId": "3fac4f62-5417-2632-8332-874688956d32",
+			"data": null,
+			"dataMode": "params",
+			"name": "Estilos.Deletar",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1566829353915,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"folder": "6f15ae0a-e304-a3c0-3335-e61912dc6d0b"
+		}
+	]
+}

@@ -1,0 +1,14 @@
+C:\Users\42720780898\Desktop\2s2019-t2-sprint-2-backend\Senai.Guffos.WebApi\Senai.Guffos.WebApi\bin\Debug\netcoreapp2.1\Senai.Guffos.WebApi.deps.json
+C:\Users\42720780898\Desktop\2s2019-t2-sprint-2-backend\Senai.Guffos.WebApi\Senai.Guffos.WebApi\bin\Debug\netcoreapp2.1\Senai.Guffos.WebApi.runtimeconfig.json
+C:\Users\42720780898\Desktop\2s2019-t2-sprint-2-backend\Senai.Guffos.WebApi\Senai.Guffos.WebApi\bin\Debug\netcoreapp2.1\Senai.Guffos.WebApi.runtimeconfig.dev.json
+C:\Users\42720780898\Desktop\2s2019-t2-sprint-2-backend\Senai.Guffos.WebApi\Senai.Guffos.WebApi\bin\Debug\netcoreapp2.1\Senai.Guffos.WebApi.dll
+C:\Users\42720780898\Desktop\2s2019-t2-sprint-2-backend\Senai.Guffos.WebApi\Senai.Guffos.WebApi\obj\Debug\netcoreapp2.1\Senai.Guffos.WebApi.csprojAssemblyReference.cache
+C:\Users\42720780898\Desktop\2s2019-t2-sprint-2-backend\Senai.Guffos.WebApi\Senai.Guffos.WebApi\obj\Debug\netcoreapp2.1\Senai.Guffos.WebApi.csproj.CoreCompileInputs.cache
+C:\Users\42720780898\Desktop\2s2019-t2-sprint-2-backend\Senai.Guffos.WebApi\Senai.Guffos.WebApi\obj\Debug\netcoreapp2.1\Senai.Guffos.WebApi.RazorAssemblyInfo.cache
+C:\Users\42720780898\Desktop\2s2019-t2-sprint-2-backend\Senai.Guffos.WebApi\Senai.Guffos.WebApi\obj\Debug\netcoreapp2.1\Senai.Guffos.WebApi.RazorAssemblyInfo.cs
+C:\Users\42720780898\Desktop\2s2019-t2-sprint-2-backend\Senai.Guffos.WebApi\Senai.Guffos.WebApi\obj\Debug\netcoreapp2.1\Senai.Guffos.WebApi.AssemblyInfoInputs.cache
+C:\Users\42720780898\Desktop\2s2019-t2-sprint-2-backend\Senai.Guffos.WebApi\Senai.Guffos.WebApi\obj\Debug\netcoreapp2.1\Senai.Guffos.WebApi.AssemblyInfo.cs
+C:\Users\42720780898\Desktop\2s2019-t2-sprint-2-backend\Senai.Guffos.WebApi\Senai.Guffos.WebApi\obj\Debug\netcoreapp2.1\Senai.Guffos.WebApi.RazorTargetAssemblyInfo.cache
+C:\Users\42720780898\Desktop\2s2019-t2-sprint-2-backend\Senai.Guffos.WebApi\Senai.Guffos.WebApi\bin\Debug\netcoreapp2.1\Senai.Guffos.WebApi.pdb
+C:\Users\42720780898\Desktop\2s2019-t2-sprint-2-backend\Senai.Guffos.WebApi\Senai.Guffos.WebApi\obj\Debug\netcoreapp2.1\Senai.Guffos.WebApi.dll
+C:\Users\42720780898\Desktop\2s2019-t2-sprint-2-backend\Senai.Guffos.WebApi\Senai.Guffos.WebApi\obj\Debug\netcoreapp2.1\Senai.Guffos.WebApi.pdb
