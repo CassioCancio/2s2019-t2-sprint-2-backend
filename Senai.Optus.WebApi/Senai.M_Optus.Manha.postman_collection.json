@@ -2,9 +2,7 @@
 	"id": "3fac4f62-5417-2632-8332-874688956d32",
 	"name": "Senai.M_Optus.Manha",
 	"description": "",
-	"order": [
-		"b347e14c-24a4-e281-1e66-5a92d80e2970"
-	],
+	"order": [],
 	"folders": [
 		{
 			"name": "Artistas",
@@ -24,16 +22,29 @@
 			"collectionId": "3fac4f62-5417-2632-8332-874688956d32",
 			"order": [
 				"c3eb4f4d-783b-d085-ac3e-e1325970027a",
-				"e54b5f9d-f41c-c124-c914-80c8fed483fa"
+				"e54b5f9d-f41c-c124-c914-80c8fed483fa",
+				"b347e14c-24a4-e281-1e66-5a92d80e2970"
 			],
 			"owner": 0,
 			"folders_order": [],
 			"id": "6f15ae0a-e304-a3c0-3335-e61912dc6d0b"
+		},
+		{
+			"name": "Login",
+			"description": "",
+			"collectionId": "3fac4f62-5417-2632-8332-874688956d32",
+			"order": [
+				"ec7598e9-78f0-225e-280a-0bba46fcf007"
+			],
+			"owner": 0,
+			"folders_order": [],
+			"id": "3a807c3f-0ffb-5b59-0deb-f755b60bb440"
 		}
 	],
 	"folders_order": [
 		"bfa3ba10-5169-6454-defc-bf5caa219a18",
-		"6f15ae0a-e304-a3c0-3335-e61912dc6d0b"
+		"6f15ae0a-e304-a3c0-3335-e61912dc6d0b",
+		"3a807c3f-0ffb-5b59-0deb-f755b60bb440"
 	],
 	"timestamp": 1566828879957,
 	"owner": 0,
@@ -107,6 +118,97 @@
 				}
 			],
 			"url": "http://localhost:60962/api/estilos",
+			"folder": "6f15ae0a-e304-a3c0-3335-e61912dc6d0b",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1566916023855,
+			"name": "Estilos.Cadastrar",
+			"description": "",
+			"collectionId": "3fac4f62-5417-2632-8332-874688956d32",
+			"responses": [],
+			"rawModeData": "{\n    \"nome\": \"Alternative\",\n},"
+		},
+		{
+			"id": "c3eb4f4d-783b-d085-ac3e-e1325970027a",
+			"headers": "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImNvbXVtQGVtYWlsLmNvbSIsImNoYXZlIjoidmFsb3IiLCJqdGkiOiIyIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoiQ09NVU0iLCJleHAiOjE1NjY5MTc0MTgsImlzcyI6Ik9wdHVzLldlYkFwaSIsImF1ZCI6Ik9wdHVzLldlYkFwaSJ9.jPu7SsCUqCim3T-KZZqTkCJibNY72z2T_EW_idRcxbQ\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImNvbXVtQGVtYWlsLmNvbSIsImNoYXZlIjoidmFsb3IiLCJqdGkiOiIyIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoiQ09NVU0iLCJleHAiOjE1NjY5MTc0MTgsImlzcyI6Ik9wdHVzLldlYkFwaSIsImF1ZCI6Ik9wdHVzLldlYkFwaSJ9.jPu7SsCUqCim3T-KZZqTkCJibNY72z2T_EW_idRcxbQ",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:60962/api/estilos",
+			"folder": "6f15ae0a-e304-a3c0-3335-e61912dc6d0b",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1566916016944,
+			"name": "Estilos.Listar",
+			"description": "",
+			"collectionId": "3fac4f62-5417-2632-8332-874688956d32",
+			"responses": []
+		},
+		{
+			"id": "e54b5f9d-f41c-c124-c914-80c8fed483fa",
+			"headers": "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbWluQGVtYWlsLmNvbSIsImNoYXZlIjoidmFsb3IiLCJqdGkiOiIxIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoiQURNSU5JU1RSQURPUiIsImV4cCI6MTU2NjkxNzc3OSwiaXNzIjoiT3B0dXMuV2ViQXBpIiwiYXVkIjoiT3B0dXMuV2ViQXBpIn0.ZA4hdPPVX2mCiJPqeKSu9_BeDuQb3o8j-xATLJNXsn0\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbWluQGVtYWlsLmNvbSIsImNoYXZlIjoidmFsb3IiLCJqdGkiOiIxIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoiQURNSU5JU1RSQURPUiIsImV4cCI6MTU2NjkxNzc3OSwiaXNzIjoiT3B0dXMuV2ViQXBpIiwiYXVkIjoiT3B0dXMuV2ViQXBpIn0.ZA4hdPPVX2mCiJPqeKSu9_BeDuQb3o8j-xATLJNXsn0",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:60962/api/estilos/2",
+			"folder": "6f15ae0a-e304-a3c0-3335-e61912dc6d0b",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "DELETE",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1566916013985,
+			"name": "Estilos.Deletar",
+			"description": "",
+			"collectionId": "3fac4f62-5417-2632-8332-874688956d32",
+			"responses": []
+		},
+		{
+			"id": "ec7598e9-78f0-225e-280a-0bba46fcf007",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:60962/api/login",
 			"queryParams": [],
 			"pathVariables": {},
 			"pathVariableData": [],
@@ -115,64 +217,17 @@
 			"collectionId": "3fac4f62-5417-2632-8332-874688956d32",
 			"data": [],
 			"dataMode": "raw",
-			"name": "Estilos.Cadastrar",
+			"name": "Login.Login",
 			"description": "",
 			"descriptionFormat": "html",
-			"time": 1566829308829,
+			"time": 1566916045804,
 			"version": 2,
 			"responses": [],
 			"tests": null,
 			"currentHelper": "normal",
 			"helperAttributes": {},
-			"rawModeData": "{\n    \"nome\": \"Alternative\",\n},"
-		},
-		{
-			"id": "c3eb4f4d-783b-d085-ac3e-e1325970027a",
-			"headers": "",
-			"headerData": [],
-			"url": "http://localhost:60962/api/estilos",
-			"queryParams": [],
-			"pathVariables": {},
-			"pathVariableData": [],
-			"preRequestScript": null,
-			"method": "GET",
-			"collectionId": "3fac4f62-5417-2632-8332-874688956d32",
-			"data": null,
-			"dataMode": "params",
-			"name": "Estilos.Listar",
-			"description": "",
-			"descriptionFormat": "html",
-			"time": 1566829226691,
-			"version": 2,
-			"responses": [],
-			"tests": null,
-			"currentHelper": "normal",
-			"helperAttributes": {},
-			"folder": "6f15ae0a-e304-a3c0-3335-e61912dc6d0b"
-		},
-		{
-			"id": "e54b5f9d-f41c-c124-c914-80c8fed483fa",
-			"headers": "",
-			"headerData": [],
-			"url": "http://localhost:60962/api/estilos/2",
-			"queryParams": [],
-			"pathVariables": {},
-			"pathVariableData": [],
-			"preRequestScript": null,
-			"method": "DELETE",
-			"collectionId": "3fac4f62-5417-2632-8332-874688956d32",
-			"data": null,
-			"dataMode": "params",
-			"name": "Estilos.Deletar",
-			"description": "",
-			"descriptionFormat": "html",
-			"time": 1566829353915,
-			"version": 2,
-			"responses": [],
-			"tests": null,
-			"currentHelper": "normal",
-			"helperAttributes": {},
-			"folder": "6f15ae0a-e304-a3c0-3335-e61912dc6d0b"
+			"folder": "3a807c3f-0ffb-5b59-0deb-f755b60bb440",
+			"rawModeData": "{\n\t\"email\":\"admin@email.com\",\n\t\"senha\":\"123456\"\n}"
 		}
 	]
 }

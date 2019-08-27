@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Senai.Guffos.WebApi.Domains;
@@ -20,6 +21,8 @@ namespace Senai.Guffos.WebApi.Controllers
         /// Listar todas as Categorias
         /// </summary>
         /// <returns> Retorna todas </returns>
+        
+        [Authorize]
         [HttpGet]
         public IActionResult ListarTodos()
         {
