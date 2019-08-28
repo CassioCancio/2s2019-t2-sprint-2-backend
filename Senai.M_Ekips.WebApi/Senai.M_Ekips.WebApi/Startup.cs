@@ -1,4 +1,16 @@
-public class Startup
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+using Microsoft.AspNetCore.Builder;
+using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.Http;
+using Microsoft.Extensions.DependencyInjection;
+using Microsoft.IdentityModel.Tokens;
+
+namespace Senai.M_Ekips.WebApi
+{
+    public class Startup
     {
         // This method gets called by the runtime. Use this method to add services to the container.
         // For more information on how to configure your application, visit https://go.microsoft.com/fwlink/?LinkID=398940
@@ -29,19 +41,19 @@ public class Startup
 
                     ValidateLifetime = true,
 
-                    IssuerSigningKey = new SymmetricSecurityKey(System.Text.Encoding.UTF8.GetBytes("optus-chave-autenticacao")),
+                    IssuerSigningKey = new SymmetricSecurityKey(System.Text.Encoding.UTF8.GetBytes("ekips-chave-autenticacao")),
 
                     ClockSkew = TimeSpan.FromMinutes(30),
 
-                    ValidIssuer = "Optus.WebApi",
+                    ValidIssuer = "Ekips.WebApi",
 
-                    ValidAudience = "Optus.WebApi"
+                    ValidAudience = "Ekips.WebApi"
                 };
             });
 
             services.AddSwaggerGen(c =>
             {
-                c.SwaggerDoc("v1", new Swashbuckle.AspNetCore.Swagger.Info { Title = "M_Optus API", Version = "v1" });
+                c.SwaggerDoc("v1", new Swashbuckle.AspNetCore.Swagger.Info { Title = "M_Ekips API", Version = "v1" });
             });
 
             services.AddCors(options =>
@@ -64,7 +76,7 @@ public class Startup
 
             app.UseSwaggerUI(c =>
             {
-                c.SwaggerEndpoint("/swagger/v1/swagger.json", "M_Optus API V1");
+                c.SwaggerEndpoint("/swagger/v1/swagger.json", "M_Ekips API V1");
             });
 
             app.UseAuthentication();
@@ -72,3 +84,4 @@ public class Startup
             app.UseMvc();
         }
     }
+}

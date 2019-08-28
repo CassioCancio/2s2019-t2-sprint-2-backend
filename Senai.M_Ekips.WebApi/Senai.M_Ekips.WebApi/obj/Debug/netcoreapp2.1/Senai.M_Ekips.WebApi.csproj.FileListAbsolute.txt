@@ -1,0 +1,14 @@
+C:\Users\42720780898\Desktop\2s2019-t2-sprint-2-backend\Senai.M_Ekips.WebApi\Senai.M_Ekips.WebApi\bin\Debug\netcoreapp2.1\Senai.M_Ekips.WebApi.deps.json
+C:\Users\42720780898\Desktop\2s2019-t2-sprint-2-backend\Senai.M_Ekips.WebApi\Senai.M_Ekips.WebApi\bin\Debug\netcoreapp2.1\Senai.M_Ekips.WebApi.runtimeconfig.json
+C:\Users\42720780898\Desktop\2s2019-t2-sprint-2-backend\Senai.M_Ekips.WebApi\Senai.M_Ekips.WebApi\bin\Debug\netcoreapp2.1\Senai.M_Ekips.WebApi.runtimeconfig.dev.json
+C:\Users\42720780898\Desktop\2s2019-t2-sprint-2-backend\Senai.M_Ekips.WebApi\Senai.M_Ekips.WebApi\bin\Debug\netcoreapp2.1\Senai.M_Ekips.WebApi.dll
+C:\Users\42720780898\Desktop\2s2019-t2-sprint-2-backend\Senai.M_Ekips.WebApi\Senai.M_Ekips.WebApi\obj\Debug\netcoreapp2.1\Senai.M_Ekips.WebApi.csprojAssemblyReference.cache
+C:\Users\42720780898\Desktop\2s2019-t2-sprint-2-backend\Senai.M_Ekips.WebApi\Senai.M_Ekips.WebApi\obj\Debug\netcoreapp2.1\Senai.M_Ekips.WebApi.csproj.CoreCompileInputs.cache
+C:\Users\42720780898\Desktop\2s2019-t2-sprint-2-backend\Senai.M_Ekips.WebApi\Senai.M_Ekips.WebApi\obj\Debug\netcoreapp2.1\Senai.M_Ekips.WebApi.RazorAssemblyInfo.cache
+C:\Users\42720780898\Desktop\2s2019-t2-sprint-2-backend\Senai.M_Ekips.WebApi\Senai.M_Ekips.WebApi\obj\Debug\netcoreapp2.1\Senai.M_Ekips.WebApi.RazorAssemblyInfo.cs
+C:\Users\42720780898\Desktop\2s2019-t2-sprint-2-backend\Senai.M_Ekips.WebApi\Senai.M_Ekips.WebApi\obj\Debug\netcoreapp2.1\Senai.M_Ekips.WebApi.AssemblyInfoInputs.cache
+C:\Users\42720780898\Desktop\2s2019-t2-sprint-2-backend\Senai.M_Ekips.WebApi\Senai.M_Ekips.WebApi\obj\Debug\netcoreapp2.1\Senai.M_Ekips.WebApi.AssemblyInfo.cs
+C:\Users\42720780898\Desktop\2s2019-t2-sprint-2-backend\Senai.M_Ekips.WebApi\Senai.M_Ekips.WebApi\obj\Debug\netcoreapp2.1\Senai.M_Ekips.WebApi.RazorTargetAssemblyInfo.cache
+C:\Users\42720780898\Desktop\2s2019-t2-sprint-2-backend\Senai.M_Ekips.WebApi\Senai.M_Ekips.WebApi\bin\Debug\netcoreapp2.1\Senai.M_Ekips.WebApi.pdb
+C:\Users\42720780898\Desktop\2s2019-t2-sprint-2-backend\Senai.M_Ekips.WebApi\Senai.M_Ekips.WebApi\obj\Debug\netcoreapp2.1\Senai.M_Ekips.WebApi.dll
+C:\Users\42720780898\Desktop\2s2019-t2-sprint-2-backend\Senai.M_Ekips.WebApi\Senai.M_Ekips.WebApi\obj\Debug\netcoreapp2.1\Senai.M_Ekips.WebApi.pdb
