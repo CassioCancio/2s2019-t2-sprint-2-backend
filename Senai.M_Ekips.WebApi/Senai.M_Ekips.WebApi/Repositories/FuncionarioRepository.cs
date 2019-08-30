@@ -9,49 +9,54 @@ namespace Senai.M_Ekips.WebApi.Repositories
 {
     public class FuncionarioRepository
     {
-        private string StringConexao = "Data Source=.\\SqlExpress; initial catalog=M_RoteiroFilmes;User Id=sa;Pwd=132;";
+        private string StringConexao = "Data Source=.\\SqlExpress; initial catalog=M_Ekips; User Id=sa;Pwd=132";
 
         public List<Funcionarios> Listar()
         {
-            List<Funcionarios> funcionarios = new List<Funcionarios>();
+            List<Funcionarios> ListaDeFuncionarios = new List<Funcionarios>();
+
             using (SqlConnection con = new SqlConnection(StringConexao))
             {
-                string Query = "SELECT F.IdFuncionario, F.Nome, F.CPF, F.Salario, F.DataNascimento, D.IdDepartamento,D.Nome, C.IdCargo, C.Nome FROM Funcionarios F INNER JOIN Departamentos D ON F.IdDepartamento = D.IdDepartamento INNER JOIN Cargos C ON F.IdCargo = C.IdCargo";
+                string query = "select f.IdFuncionario, f.Nome, f.CPF, f.DataNascimento, f.Salario, f.IdDepartamento, f.IdCargo, f.IdUsuario, u.Email, u.Senha, u.IdPermissao, d.Nome, c.Nome, c.IdStatus from Funcionarios f inner join Usuarios u on f.IdUsuario = u.IdUsuario inner join Departamentos d on f.IdDepartamento = d.IdDepartamento inner join Cargos c on f.IdCargo = c.IdCargo";
 
                 con.Open();
-                SqlDataReader rdr;
 
-                using (SqlCommand cmd = new SqlCommand(Query, con))
+                SqlDataReader sdr;
+
+                using (SqlCommand cmd = new SqlCommand(query, con))
                 {
-                    // executa a query
-                    rdr = cmd.ExecuteReader();
+                    sdr = cmd.ExecuteReader();
 
-                    while (rdr.Read())
+                    while (sdr.Read())
                     {
                         Funcionarios funcionario = new Funcionarios
                         {
-                            IdFuncionario = Convert.ToInt32(rdr["F.IdFuncionario"]),
-                            Nome = rdr["F.Nome"].ToString(),
-                            Cpf = rdr["F.CPF"].ToString(),
-                            Salario = Convert.ToDouble(rdr["F.Salario"]),
-                            DataNascimento = Convert.ToDateTime(rdr["F.DataNascimento"]),
+                            IdFuncionario = Convert.ToInt32(sdr["IdFuncionario"]),
+                            Nome = sdr["Nome"].ToString(),
+                            Cpf = sdr["CPF"].ToString(),
+                            DataNascimento = Convert.ToDateTime(sdr["DataNascimento"]),
+                            Salario = Convert.ToDouble(sdr["Salario"]),
                             IdDepartamentoNavigation = new Departamentos
                             {
-                                IdDepartamento = Convert.ToInt32(rdr["D.IdDepartamento"]),
-                                Nome = rdr["D.Nome"].ToString()
+                                IdDepartamento = Convert.ToInt32(sdr["IdDepartamento"]),
+                                Nome = sdr["Nome"].ToString()
                             },
                             IdCargoNavigation = new Cargos
                             {
-                                IdCargo = Convert.ToInt32(rdr["C.IdCargo"]),
-                                Nome = rdr["C.Nome"].ToString()
-                            }
+                                IdCargo = Convert.ToInt32(sdr["IdCargo"]),
+                                Nome = sdr["Nome"].ToString(),
+                                IdStatus = Convert.ToInt32(sdr["IdStatus"])
+                            },
+                            IdUsuario = Convert.ToInt32(sdr["IdUsuario"])
                         };
-                        funcionarios.Add(funcionario);
-                    };
+                        ListaDeFuncionarios.Add(funcionario);
+                    }
                 }
             }
-            return funcionarios;
+
+            return ListaDeFuncionarios;
         }
+
 
         public void Cadastrar(Funcionarios estilo)
         {
@@ -66,7 +71,7 @@ namespace Senai.M_Ekips.WebApi.Repositories
         {
             using (SqlConnection con = new SqlConnection(StringConexao))
             {
-                string Query = "SELECT F.IdFuncionario, F.Nome, F.CPF, F.Salario, F.DataNascimento, D.IdDepartamento,D.Nome, C.IdCargo, C.Nome FROM Funcionarios F INNER JOIN Departamentos D ON F.IdDepartamento = D.IdDepartamento INNER JOIN Cargos C ON F.IdCargo = C.IdCargo WHERE F.IdFuncionario = @id";
+                string Query = "select f.IdFuncionario, f.Nome, f.CPF, f.DataNascimento, f.Salario, f.IdDepartamento, f.IdCargo, f.IdUsuario, u.Email, u.Senha, u.IdPermissao, d.Nome, c.Nome, c.IdStatus from Funcionarios f inner join Usuarios u on f.IdUsuario = u.IdUsuario inner join Departamentos d on f.IdDepartamento = d.IdDepartamento inner join Cargos c on f.IdCargo = c.IdCargo WHERE f.IdUsuario = @id";
 
                 con.Open();
                 SqlDataReader rdr;
@@ -80,27 +85,30 @@ namespace Senai.M_Ekips.WebApi.Repositories
                     {
                         Funcionarios funcionario = new Funcionarios
                         {
-                            IdFuncionario = Convert.ToInt32(rdr["F.IdFuncionario"]),
-                            Nome = rdr["F.Nome"].ToString(),
-                            Cpf = rdr["F.CPF"].ToString(),
-                            Salario = Convert.ToDouble(rdr["F.Salario"]),
-                            DataNascimento = Convert.ToDateTime(rdr["F.DataNascimento"]),
+                            IdFuncionario = Convert.ToInt32(rdr["IdFuncionario"]),
+                            Nome = rdr["Nome"].ToString(),
+                            Cpf = rdr["CPF"].ToString(),
+                            DataNascimento = Convert.ToDateTime(rdr["DataNascimento"]),
+                            Salario = Convert.ToDouble(rdr["Salario"]),
                             IdDepartamentoNavigation = new Departamentos
                             {
-                                IdDepartamento = Convert.ToInt32(rdr["D.IdDepartamento"]),
-                                Nome = rdr["D.Nome"].ToString()
+                                IdDepartamento = Convert.ToInt32(rdr["IdDepartamento"]),
+                                Nome = rdr["Nome"].ToString()
                             },
                             IdCargoNavigation = new Cargos
                             {
-                                IdCargo = Convert.ToInt32(rdr["C.IdCargo"]),
-                                Nome = rdr["C.Nome"].ToString()
-                            }
+                                IdCargo = Convert.ToInt32(rdr["IdCargo"]),
+                                Nome = rdr["Nome"].ToString(),
+                                IdStatus = Convert.ToInt32(rdr["IdStatus"])
+                            },
+                            IdUsuario = Convert.ToInt32(rdr["IdUsuario"])
                         };
                         return funcionario;
                     };
                 }
             }
             return null;
+
         }
     
 

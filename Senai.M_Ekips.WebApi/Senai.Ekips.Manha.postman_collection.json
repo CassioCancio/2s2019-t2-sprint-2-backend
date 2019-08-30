@@ -1,0 +1,409 @@
+{
+	"id": "10fb69de-dd18-992a-ff9e-86df4de3693c",
+	"name": "Senai.Ekips.Manha",
+	"description": "",
+	"order": [],
+	"folders": [
+		{
+			"name": "Cargos",
+			"description": "",
+			"collectionId": "10fb69de-dd18-992a-ff9e-86df4de3693c",
+			"order": [
+				"9921bac2-7ae6-654a-2270-7305d827f116",
+				"4841511d-7ef0-e29f-5863-94acf402cc95",
+				"9edc303a-9ec1-0526-4828-a27653cbf47b",
+				"1391629e-ed05-f92f-edec-bcf8569532b5"
+			],
+			"owner": 0,
+			"folders_order": [],
+			"id": "071430ea-129b-bda8-6fb0-399f0129ae76"
+		},
+		{
+			"name": "Departamentos",
+			"description": "",
+			"collectionId": "10fb69de-dd18-992a-ff9e-86df4de3693c",
+			"order": [
+				"4180b8ba-15fd-3260-16b3-8ff623960265",
+				"c117f660-4fc8-2703-6fd5-5472b1280151",
+				"b54e59b5-a579-67d4-b655-8c0f8cc83ead"
+			],
+			"owner": 0,
+			"folders_order": [],
+			"id": "eb4e9bb1-68ca-116c-28b8-91598125a30a"
+		},
+		{
+			"name": "Funcionarios",
+			"description": "",
+			"collectionId": "10fb69de-dd18-992a-ff9e-86df4de3693c",
+			"order": [
+				"33e4205e-b444-a7d4-f9fa-1512eec4192c",
+				"b1867d0e-9f30-a525-7590-e8ea8e43b36f",
+				"606d6aad-f244-135a-04ce-c676ad163666",
+				"8d8cee90-638e-be6e-4d13-02e9e04b851d"
+			],
+			"owner": 0,
+			"folders_order": [],
+			"id": "c27e3b53-9f3c-b75d-dc99-b6ae56945dc3"
+		},
+		{
+			"name": "Login",
+			"description": "",
+			"collectionId": "10fb69de-dd18-992a-ff9e-86df4de3693c",
+			"order": [
+				"245f7296-0942-0352-2e27-f11a910a8d11"
+			],
+			"owner": 0,
+			"folders_order": [],
+			"id": "16aeaa0f-632a-7a01-c2ae-e75c1721dfb1"
+		}
+	],
+	"folders_order": [
+		"c27e3b53-9f3c-b75d-dc99-b6ae56945dc3",
+		"eb4e9bb1-68ca-116c-28b8-91598125a30a",
+		"071430ea-129b-bda8-6fb0-399f0129ae76",
+		"16aeaa0f-632a-7a01-c2ae-e75c1721dfb1"
+	],
+	"timestamp": 1567000890821,
+	"owner": 0,
+	"public": false,
+	"requests": [
+		{
+			"id": "1391629e-ed05-f92f-edec-bcf8569532b5",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:50334/api/cargos/1",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "PUT",
+			"collectionId": "10fb69de-dd18-992a-ff9e-86df4de3693c",
+			"data": [],
+			"dataMode": "raw",
+			"name": "Cargos.Atualizar",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1567173741286,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"folder": "071430ea-129b-bda8-6fb0-399f0129ae76",
+			"rawModeData": "{\n\t\"nome\": \"Desenvolvedor de Sistemas\"\n}"
+		},
+		{
+			"id": "245f7296-0942-0352-2e27-f11a910a8d11",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:50334/api/login",
+			"folder": "16aeaa0f-632a-7a01-c2ae-e75c1721dfb1",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1567172848062,
+			"name": "Login.Login",
+			"description": "",
+			"collectionId": "10fb69de-dd18-992a-ff9e-86df4de3693c",
+			"responses": [],
+			"rawModeData": "{\n\t\"email\":\"joao@email.com\",\n\t\"senha\":\"12345678\"\n}"
+		},
+		{
+			"id": "33e4205e-b444-a7d4-f9fa-1512eec4192c",
+			"headers": "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImpvYW9AZW1haWwuY29tIiwiY2hhdmUiOiJ2YWxvciIsImp0aSI6IjIiLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOiIyIiwiZXhwIjoxNTY3MTczODU0LCJpc3MiOiJFa2lwcy5XZWJBcGkiLCJhdWQiOiJFa2lwcy5XZWJBcGkifQ.tqZQintAvUcWV8eqo_MbfD7yIKLmILiwpeMLKFqQz3g\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImpvYW9AZW1haWwuY29tIiwiY2hhdmUiOiJ2YWxvciIsImp0aSI6IjIiLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOiIyIiwiZXhwIjoxNTY3MTczODU0LCJpc3MiOiJFa2lwcy5XZWJBcGkiLCJhdWQiOiJFa2lwcy5XZWJBcGkifQ.tqZQintAvUcWV8eqo_MbfD7yIKLmILiwpeMLKFqQz3g",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:50334/api/funcionarios",
+			"folder": "c27e3b53-9f3c-b75d-dc99-b6ae56945dc3",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1567172849198,
+			"name": "Funcionarios.Listar",
+			"description": "",
+			"collectionId": "10fb69de-dd18-992a-ff9e-86df4de3693c",
+			"responses": []
+		},
+		{
+			"id": "4180b8ba-15fd-3260-16b3-8ff623960265",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost:50334/api/departamentos",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "10fb69de-dd18-992a-ff9e-86df4de3693c",
+			"data": null,
+			"dataMode": "params",
+			"name": "Departamentos.Listar",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1567173037319,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"folder": "eb4e9bb1-68ca-116c-28b8-91598125a30a"
+		},
+		{
+			"id": "4841511d-7ef0-e29f-5863-94acf402cc95",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost:50334/api/cargos/1",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "10fb69de-dd18-992a-ff9e-86df4de3693c",
+			"data": null,
+			"dataMode": "params",
+			"name": "Cargos.BuscarPorId",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1567173500234,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"folder": "071430ea-129b-bda8-6fb0-399f0129ae76"
+		},
+		{
+			"id": "606d6aad-f244-135a-04ce-c676ad163666",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:50334/api/funcionarios/3",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "PUT",
+			"collectionId": "10fb69de-dd18-992a-ff9e-86df4de3693c",
+			"data": [],
+			"dataMode": "raw",
+			"name": "Funcionarios.Atualizar",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1567173962544,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"folder": "c27e3b53-9f3c-b75d-dc99-b6ae56945dc3",
+			"rawModeData": "{\n\t\"nome\": \"Pedro Alvares\"\n}"
+		},
+		{
+			"id": "8d8cee90-638e-be6e-4d13-02e9e04b851d",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:50334/api/funcionarios/",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1567174650522,
+			"name": "Funcionarios.Cadastrar",
+			"description": "",
+			"collectionId": "10fb69de-dd18-992a-ff9e-86df4de3693c",
+			"responses": [],
+			"rawModeData": "{\r\n    \"Nome\" : \"Gabriel Silva\",\r\n    \"Cpf\" : \"123.098.765-34\",\r\n    \"DataNascimento\" : \"1998-10-01\",\r\n\t\"Salario\" : 3450,\r\n    \"IdDepartamento\" : 2,\r\n    \"IdCargo\" : 2,\r\n    \"IdUsuario\" : 4\r\n}"
+		},
+		{
+			"id": "9921bac2-7ae6-654a-2270-7305d827f116",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost:50334/api/cargos/",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1567173480488,
+			"name": "Cargos.Listar",
+			"description": "",
+			"collectionId": "10fb69de-dd18-992a-ff9e-86df4de3693c",
+			"responses": []
+		},
+		{
+			"id": "9edc303a-9ec1-0526-4828-a27653cbf47b",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:50334/api/cargos/",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "10fb69de-dd18-992a-ff9e-86df4de3693c",
+			"data": [],
+			"dataMode": "raw",
+			"name": "Cargos.Cadastrar",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1567173674310,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"folder": "071430ea-129b-bda8-6fb0-399f0129ae76",
+			"rawModeData": "{\n\t\"nome\": \"Desenvolvedor de Sistemas\",\n\t\"IdStatus\": 1\n}"
+		},
+		{
+			"id": "b1867d0e-9f30-a525-7590-e8ea8e43b36f",
+			"headers": "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbUBlbWFpbC5jb20iLCJjaGF2ZSI6InZhbG9yIiwianRpIjoiMSIsImh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vd3MvMjAwOC8wNi9pZGVudGl0eS9jbGFpbXMvcm9sZSI6IjEiLCJleHAiOjE1NjcwMDMyMjgsImlzcyI6IkVraXBzLldlYkFwaSIsImF1ZCI6IkVraXBzLldlYkFwaSJ9.0m5VXXlAt2pt4-ZsJP2Mv_K1qUURxsHhgAkbsEKleBc\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbUBlbWFpbC5jb20iLCJjaGF2ZSI6InZhbG9yIiwianRpIjoiMSIsImh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vd3MvMjAwOC8wNi9pZGVudGl0eS9jbGFpbXMvcm9sZSI6IjEiLCJleHAiOjE1NjcwMDMyMjgsImlzcyI6IkVraXBzLldlYkFwaSIsImF1ZCI6IkVraXBzLldlYkFwaSJ9.0m5VXXlAt2pt4-ZsJP2Mv_K1qUURxsHhgAkbsEKleBc",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:50334/api/funcionarios/3",
+			"folder": "c27e3b53-9f3c-b75d-dc99-b6ae56945dc3",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "DELETE",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1567001654254,
+			"name": "Funcionarios.Deletar",
+			"description": "",
+			"collectionId": "10fb69de-dd18-992a-ff9e-86df4de3693c",
+			"responses": []
+		},
+		{
+			"id": "b54e59b5-a579-67d4-b655-8c0f8cc83ead",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost:50334/api/departamentos/1",
+			"folder": "eb4e9bb1-68ca-116c-28b8-91598125a30a",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1567173066373,
+			"name": "Departamentos.BuscarPorId",
+			"description": "",
+			"collectionId": "10fb69de-dd18-992a-ff9e-86df4de3693c",
+			"responses": []
+		},
+		{
+			"id": "c117f660-4fc8-2703-6fd5-5472b1280151",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:50334/api/departamentos",
+			"folder": "eb4e9bb1-68ca-116c-28b8-91598125a30a",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1567173351973,
+			"name": "Departamentos.Cadastrar",
+			"description": "",
+			"collectionId": "10fb69de-dd18-992a-ff9e-86df4de3693c",
+			"responses": [],
+			"rawModeData": "{\n\t\"nome\": \"Crédito\",\n}"
+		}
+	]
+}
