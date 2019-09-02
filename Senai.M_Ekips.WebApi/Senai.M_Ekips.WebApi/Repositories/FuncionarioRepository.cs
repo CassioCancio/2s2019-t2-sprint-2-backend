@@ -58,11 +58,11 @@ namespace Senai.M_Ekips.WebApi.Repositories
         }
 
 
-        public void Cadastrar(Funcionarios estilo)
+        public void Cadastrar(Funcionarios funcionario)
         {
             using (EkipsContext ctx = new EkipsContext())
             {
-                ctx.Funcionarios.Add(estilo);
+                ctx.Funcionarios.Add(funcionario);
                 ctx.SaveChanges();
             }
         }
