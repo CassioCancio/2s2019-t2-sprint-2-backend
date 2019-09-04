@@ -1,0 +1,14 @@
+C:\Users\42720780898\Desktop\2s2019-t2-sprint-2-backend\Senai.M_AutoPecas.WebApi\Senai.M_AutoPecas.WebApi\Senai.M_AutoPecas.WebApi\bin\Debug\netcoreapp2.1\Senai.M_AutoPecas.WebApi.deps.json
+C:\Users\42720780898\Desktop\2s2019-t2-sprint-2-backend\Senai.M_AutoPecas.WebApi\Senai.M_AutoPecas.WebApi\Senai.M_AutoPecas.WebApi\bin\Debug\netcoreapp2.1\Senai.M_AutoPecas.WebApi.runtimeconfig.json
+C:\Users\42720780898\Desktop\2s2019-t2-sprint-2-backend\Senai.M_AutoPecas.WebApi\Senai.M_AutoPecas.WebApi\Senai.M_AutoPecas.WebApi\bin\Debug\netcoreapp2.1\Senai.M_AutoPecas.WebApi.runtimeconfig.dev.json
+C:\Users\42720780898\Desktop\2s2019-t2-sprint-2-backend\Senai.M_AutoPecas.WebApi\Senai.M_AutoPecas.WebApi\Senai.M_AutoPecas.WebApi\bin\Debug\netcoreapp2.1\Senai.M_AutoPecas.WebApi.dll
+C:\Users\42720780898\Desktop\2s2019-t2-sprint-2-backend\Senai.M_AutoPecas.WebApi\Senai.M_AutoPecas.WebApi\Senai.M_AutoPecas.WebApi\obj\Debug\netcoreapp2.1\Senai.M_AutoPecas.WebApi.csprojAssemblyReference.cache
+C:\Users\42720780898\Desktop\2s2019-t2-sprint-2-backend\Senai.M_AutoPecas.WebApi\Senai.M_AutoPecas.WebApi\Senai.M_AutoPecas.WebApi\obj\Debug\netcoreapp2.1\Senai.M_AutoPecas.WebApi.csproj.CoreCompileInputs.cache
+C:\Users\42720780898\Desktop\2s2019-t2-sprint-2-backend\Senai.M_AutoPecas.WebApi\Senai.M_AutoPecas.WebApi\Senai.M_AutoPecas.WebApi\obj\Debug\netcoreapp2.1\Senai.M_AutoPecas.WebApi.RazorAssemblyInfo.cache
+C:\Users\42720780898\Desktop\2s2019-t2-sprint-2-backend\Senai.M_AutoPecas.WebApi\Senai.M_AutoPecas.WebApi\Senai.M_AutoPecas.WebApi\obj\Debug\netcoreapp2.1\Senai.M_AutoPecas.WebApi.RazorAssemblyInfo.cs
+C:\Users\42720780898\Desktop\2s2019-t2-sprint-2-backend\Senai.M_AutoPecas.WebApi\Senai.M_AutoPecas.WebApi\Senai.M_AutoPecas.WebApi\obj\Debug\netcoreapp2.1\Senai.M_AutoPecas.WebApi.AssemblyInfoInputs.cache
+C:\Users\42720780898\Desktop\2s2019-t2-sprint-2-backend\Senai.M_AutoPecas.WebApi\Senai.M_AutoPecas.WebApi\Senai.M_AutoPecas.WebApi\obj\Debug\netcoreapp2.1\Senai.M_AutoPecas.WebApi.AssemblyInfo.cs
+C:\Users\42720780898\Desktop\2s2019-t2-sprint-2-backend\Senai.M_AutoPecas.WebApi\Senai.M_AutoPecas.WebApi\Senai.M_AutoPecas.WebApi\obj\Debug\netcoreapp2.1\Senai.M_AutoPecas.WebApi.RazorTargetAssemblyInfo.cache
+C:\Users\42720780898\Desktop\2s2019-t2-sprint-2-backend\Senai.M_AutoPecas.WebApi\Senai.M_AutoPecas.WebApi\Senai.M_AutoPecas.WebApi\bin\Debug\netcoreapp2.1\Senai.M_AutoPecas.WebApi.pdb
+C:\Users\42720780898\Desktop\2s2019-t2-sprint-2-backend\Senai.M_AutoPecas.WebApi\Senai.M_AutoPecas.WebApi\Senai.M_AutoPecas.WebApi\obj\Debug\netcoreapp2.1\Senai.M_AutoPecas.WebApi.dll
+C:\Users\42720780898\Desktop\2s2019-t2-sprint-2-backend\Senai.M_AutoPecas.WebApi\Senai.M_AutoPecas.WebApi\Senai.M_AutoPecas.WebApi\obj\Debug\netcoreapp2.1\Senai.M_AutoPecas.WebApi.pdb

@@ -11294,7 +11294,6 @@
       "path": "system.security.claims/4.3.0",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -11680,7 +11679,6 @@
       "path": "system.security.principal/4.3.0",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -12702,8 +12700,7 @@
       "Microsoft.EntityFrameworkCore.Tools >= 2.1.11",
       "Microsoft.NETCore.App >= 2.1.0",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 2.1.9",
-      "Swashbuckle.AspNetCore >= 4.0.1",
-      "Swashbuckle.AspNetCore.Swagger >= 4.0.1"
+      "Swashbuckle.AspNetCore >= 4.0.1"
     ]
   },
   "packageFolders": {
@@ -12713,11 +12710,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\42720780898\\Desktop\\2s2019-t2-sprint-2-backend\\Senai.Inlock.WebApi\\Senai.Inlock.WebApi\\Senai.Inlock.WebApi\\Senai.Inlock.WebApi.csproj",
-      "projectName": "Senai.Inlock.WebApi",
-      "projectPath": "C:\\Users\\42720780898\\Desktop\\2s2019-t2-sprint-2-backend\\Senai.Inlock.WebApi\\Senai.Inlock.WebApi\\Senai.Inlock.WebApi\\Senai.Inlock.WebApi.csproj",
+      "projectUniqueName": "C:\\Users\\42720780898\\Desktop\\2s2019-t2-sprint-2-backend\\Senai.M_AutoPecas.WebApi\\Senai.M_AutoPecas.WebApi\\Senai.M_AutoPecas.WebApi\\Senai.M_AutoPecas.WebApi.csproj",
+      "projectName": "Senai.M_AutoPecas.WebApi",
+      "projectPath": "C:\\Users\\42720780898\\Desktop\\2s2019-t2-sprint-2-backend\\Senai.M_AutoPecas.WebApi\\Senai.M_AutoPecas.WebApi\\Senai.M_AutoPecas.WebApi\\Senai.M_AutoPecas.WebApi.csproj",
       "packagesPath": "C:\\Users\\42720780898\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\42720780898\\Desktop\\2s2019-t2-sprint-2-backend\\Senai.Inlock.WebApi\\Senai.Inlock.WebApi\\Senai.Inlock.WebApi\\obj\\",
+      "outputPath": "C:\\Users\\42720780898\\Desktop\\2s2019-t2-sprint-2-backend\\Senai.M_AutoPecas.WebApi\\Senai.M_AutoPecas.WebApi\\Senai.M_AutoPecas.WebApi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -12782,10 +12779,6 @@
             "version": "[2.1.9, )"
           },
           "Swashbuckle.AspNetCore": {
-            "target": "Package",
-            "version": "[4.0.1, )"
-          },
-          "Swashbuckle.AspNetCore.Swagger": {
             "target": "Package",
             "version": "[4.0.1, )"
           }
