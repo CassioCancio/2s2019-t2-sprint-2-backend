@@ -9,16 +9,23 @@ namespace Senai.M_AutoPecas.WebApi.Repositories
 {
     public class PecaRepository : IPecaRepository
     {
-        public List<Pecas> Listar()
+        FornecedorRepository FornecedorRepository = new FornecedorRepository();
+
+        public List<Pecas> Listar(int idUsuario)
         {
+            int idBuscado = FornecedorRepository.BuscarId(idUsuario);
+
             using (AutoPecasContext ctx = new AutoPecasContext())
             {
-                return ctx.Pecas.ToList();
+                return ctx.Pecas.Where(x => x.IdFonecedor == idBuscado).ToList();
             }
         }
 
-        public void Cadastrar(Pecas peca)
+        public void Cadastrar(Pecas peca, int idUsuario)
         {
+            int idBuscado = FornecedorRepository.BuscarId(idUsuario);
+            peca.IdFonecedor = idBuscado;
+
             using (AutoPecasContext ctx = new AutoPecasContext())
             {
                 ctx.Pecas.Add(peca);
@@ -26,32 +33,54 @@ namespace Senai.M_AutoPecas.WebApi.Repositories
             }
         }
 
-        public Pecas BuscarPorId(int id)
+        public Pecas BuscarPorId(int id, int idUsuario)
         {
+            int idBuscado = FornecedorRepository.BuscarId(idUsuario);
+
             using (AutoPecasContext ctx = new AutoPecasContext())
             {
-                return ctx.Pecas.FirstOrDefault(x => x.IdPeca == id);
+                return ctx.Pecas.FirstOrDefault(x => x.IdPeca == id && x.IdFonecedor == idBuscado);
             }
         }
 
-        public void Alterar(Pecas peca)
+        public bool Alterar(Pecas peca, int idUsuario)
         {
+            int idBuscado = FornecedorRepository.BuscarId(idUsuario);
+
             using (AutoPecasContext ctx = new AutoPecasContext())
             {
                 Pecas PecaBuscado = ctx.Pecas.FirstOrDefault(x => x.IdPeca == peca.IdPeca);
-                PecaBuscado = peca;
-                ctx.Pecas.Update(PecaBuscado);
-                ctx.SaveChanges();
+                if (PecaBuscado.IdFonecedor == idBuscado)
+                {
+                    PecaBuscado = peca;
+                    ctx.Pecas.Update(PecaBuscado);
+                    ctx.SaveChanges();
+                    return true;
+                }
+                else
+                {
+                    return false;
+                }
             }
         }
 
-        public void Deletar(int id)
+        public bool Deletar(int id, int idUsuario)
         {
+            int idBuscado = FornecedorRepository.BuscarId(idUsuario);
+
             using (AutoPecasContext ctx = new AutoPecasContext())
             {
                 Pecas PecaBuscado = ctx.Pecas.Find(id);
+                if(PecaBuscado.IdFonecedor == idBuscado)
+                {
                 ctx.Pecas.Remove(PecaBuscado);
                 ctx.SaveChanges();
+                    return true;
+                }
+                else
+                {
+                    return false;
+                }
             }
         }
     }

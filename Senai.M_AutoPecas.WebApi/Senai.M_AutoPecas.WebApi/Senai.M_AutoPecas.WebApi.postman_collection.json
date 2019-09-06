@@ -1,0 +1,223 @@
+{
+	"id": "3a327912-e29d-93bb-c7a9-691e46660671",
+	"name": "Senai.M_AutoPecas.WebApi",
+	"description": "",
+	"order": [],
+	"folders": [
+		{
+			"name": "Login",
+			"description": "",
+			"collectionId": "3a327912-e29d-93bb-c7a9-691e46660671",
+			"order": [
+				"13c829a8-c6ff-a9c2-48d9-96884ee81687"
+			],
+			"owner": 0,
+			"folders_order": [],
+			"id": "78c178b7-e2fc-f0e9-c88e-511771de545a"
+		},
+		{
+			"name": "Pecas",
+			"description": "",
+			"collectionId": "3a327912-e29d-93bb-c7a9-691e46660671",
+			"order": [
+				"d8f65878-918b-1d47-ccaa-40fedbca0f12",
+				"00e8a8b8-1af2-33bf-859b-5712aaecc71e",
+				"ec156c54-4330-d873-4b76-2e54ce1e183a",
+				"2f62b2a8-78c2-2f3b-9234-d6dc55d2015f",
+				"fa97fd8b-4ac1-f94c-e649-49d31a911d74"
+			],
+			"owner": 0,
+			"folders_order": [],
+			"id": "d3f3da9e-3711-67c7-cf68-614ec99bdb65"
+		}
+	],
+	"folders_order": [
+		"d3f3da9e-3711-67c7-cf68-614ec99bdb65",
+		"78c178b7-e2fc-f0e9-c88e-511771de545a"
+	],
+	"timestamp": 1567779658120,
+	"owner": 0,
+	"public": false,
+	"requests": [
+		{
+			"id": "00e8a8b8-1af2-33bf-859b-5712aaecc71e",
+			"headers": "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImVtcHJlc2FBQGVtcHJlc2FBLmNvbSIsImNoYXZlIjoidmFsb3IiLCJqdGkiOiIxIiwiZXhwIjoxNTY3NzgxOTI3LCJpc3MiOiJNX0F1dG9QZWNhcy5XZWJBcGkiLCJhdWQiOiJNX0F1dG9QZWNhcy5XZWJBcGkifQ.qde5p-9b0sc4ddBaG6FwkJ-EUpNlLT_VSt3RJDvhOuc\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImVtcHJlc2FBQGVtcHJlc2FBLmNvbSIsImNoYXZlIjoidmFsb3IiLCJqdGkiOiIxIiwiZXhwIjoxNTY3NzgxOTI3LCJpc3MiOiJNX0F1dG9QZWNhcy5XZWJBcGkiLCJhdWQiOiJNX0F1dG9QZWNhcy5XZWJBcGkifQ.qde5p-9b0sc4ddBaG6FwkJ-EUpNlLT_VSt3RJDvhOuc",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:58467/api/pecas/1",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1567780165156,
+			"name": "Pecas.BuscarPorId",
+			"description": "",
+			"collectionId": "3a327912-e29d-93bb-c7a9-691e46660671",
+			"responses": []
+		},
+		{
+			"id": "13c829a8-c6ff-a9c2-48d9-96884ee81687",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:58467/api/login",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1567780499145,
+			"name": "Login.Login",
+			"description": "",
+			"collectionId": "3a327912-e29d-93bb-c7a9-691e46660671",
+			"responses": [],
+			"rawModeData": "{\n\t\"email\": \"empresaB@empresaB.com\",\n\t\"senha\": \"empresaB\"\n}"
+		},
+		{
+			"id": "2f62b2a8-78c2-2f3b-9234-d6dc55d2015f",
+			"headers": "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImVtcHJlc2FBQGVtcHJlc2FBLmNvbSIsImNoYXZlIjoidmFsb3IiLCJqdGkiOiIxIiwiZXhwIjoxNTY3NzgyMjQzLCJpc3MiOiJNX0F1dG9QZWNhcy5XZWJBcGkiLCJhdWQiOiJNX0F1dG9QZWNhcy5XZWJBcGkifQ.tRc_TnmS8PHMC2J_EvBqwY3jvDTxoORhUVfW4EQ38cM\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImVtcHJlc2FBQGVtcHJlc2FBLmNvbSIsImNoYXZlIjoidmFsb3IiLCJqdGkiOiIxIiwiZXhwIjoxNTY3NzgyMjQzLCJpc3MiOiJNX0F1dG9QZWNhcy5XZWJBcGkiLCJhdWQiOiJNX0F1dG9QZWNhcy5XZWJBcGkifQ.tRc_TnmS8PHMC2J_EvBqwY3jvDTxoORhUVfW4EQ38cM",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:58467/api/pecas/3",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "DELETE",
+			"data": [
+				{
+					"key": "",
+					"value": "",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1567780496932,
+			"name": "Pecas.Deletar",
+			"description": "",
+			"collectionId": "3a327912-e29d-93bb-c7a9-691e46660671",
+			"responses": []
+		},
+		{
+			"id": "d8f65878-918b-1d47-ccaa-40fedbca0f12",
+			"headers": "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImVtcHJlc2FCQGVtcHJlc2FCLmNvbSIsImNoYXZlIjoidmFsb3IiLCJqdGkiOiIyIiwiZXhwIjoxNTY3NzgyMjc2LCJpc3MiOiJNX0F1dG9QZWNhcy5XZWJBcGkiLCJhdWQiOiJNX0F1dG9QZWNhcy5XZWJBcGkifQ.AuPvyKd6m5NutS3o8n5m7lwpZ_9nPIUbE7LNdgI7RwA\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImVtcHJlc2FCQGVtcHJlc2FCLmNvbSIsImNoYXZlIjoidmFsb3IiLCJqdGkiOiIyIiwiZXhwIjoxNTY3NzgyMjc2LCJpc3MiOiJNX0F1dG9QZWNhcy5XZWJBcGkiLCJhdWQiOiJNX0F1dG9QZWNhcy5XZWJBcGkifQ.AuPvyKd6m5NutS3o8n5m7lwpZ_9nPIUbE7LNdgI7RwA",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:58467/api/pecas",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1567780499857,
+			"name": "Pecas.Listar",
+			"description": "",
+			"collectionId": "3a327912-e29d-93bb-c7a9-691e46660671",
+			"responses": []
+		},
+		{
+			"id": "ec156c54-4330-d873-4b76-2e54ce1e183a",
+			"headers": "//Content-Type: application/json\nAuthorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImVtcHJlc2FBQGVtcHJlc2FBLmNvbSIsImNoYXZlIjoidmFsb3IiLCJqdGkiOiIxIiwiZXhwIjoxNTY3NzgxOTI3LCJpc3MiOiJNX0F1dG9QZWNhcy5XZWJBcGkiLCJhdWQiOiJNX0F1dG9QZWNhcy5XZWJBcGkifQ.qde5p-9b0sc4ddBaG6FwkJ-EUpNlLT_VSt3RJDvhOuc\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": false
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImVtcHJlc2FBQGVtcHJlc2FBLmNvbSIsImNoYXZlIjoidmFsb3IiLCJqdGkiOiIxIiwiZXhwIjoxNTY3NzgxOTI3LCJpc3MiOiJNX0F1dG9QZWNhcy5XZWJBcGkiLCJhdWQiOiJNX0F1dG9QZWNhcy5XZWJBcGkifQ.qde5p-9b0sc4ddBaG6FwkJ-EUpNlLT_VSt3RJDvhOuc",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:58467/api/pecas/1",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "PUT",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1567780419249,
+			"name": "Pecas.Alterar",
+			"description": "",
+			"collectionId": "3a327912-e29d-93bb-c7a9-691e46660671",
+			"responses": [],
+			"rawModeData": "{\n    \"idPeca\": 2,\n    \"codigoPeca\": \"QI123D22NCKGRGRGRG332XCE278688P6FI64S\",\n    \"descricao\": \"Para choque\",\n    \"peso\": 1600,\n    \"precoCusto\": 50,\n    \"precoVenda\": 100,\n    \"idFonecedor\": 1\n}"
+		},
+		{
+			"id": "fa97fd8b-4ac1-f94c-e649-49d31a911d74",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost:58467/api/pecas",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "3a327912-e29d-93bb-c7a9-691e46660671",
+			"data": null,
+			"dataMode": "params",
+			"name": "Pecas.Cadastrar",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1567779759481,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"folder": "d3f3da9e-3711-67c7-cf68-614ec99bdb65"
+		}
+	]
+}

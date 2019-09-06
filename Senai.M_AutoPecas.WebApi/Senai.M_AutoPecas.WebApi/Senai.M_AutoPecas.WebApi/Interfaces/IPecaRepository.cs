@@ -8,14 +8,14 @@ namespace Senai.M_AutoPecas.WebApi.Interfaces
 {
     interface IPecaRepository
     {
-        List<Pecas> Listar();
+        List<Pecas> Listar(int idUsuario);
 
-        Pecas BuscarPorId(int id);
+        Pecas BuscarPorId(int idPeca, int idUsuario);
 
-        void Cadastrar(Pecas peca);
+        void Cadastrar(Pecas peca, int idUsuario);
 
-        void Alterar(Pecas peca);
+        bool Alterar(Pecas peca, int idUsuario);
 
-        void Deletar(int id);
+        bool Deletar(int id, int idUsuario);
     }
 }

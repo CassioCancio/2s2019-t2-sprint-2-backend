@@ -7,7 +7,7 @@ namespace Senai.M_AutoPecas.WebApi.Domains
     {
         public Fornecedores()
         {
-            Peças = new HashSet<Pecas>();
+            Pecas = new HashSet<Pecas>();
         }
 
         public int IdFornecedor { get; set; }
@@ -18,6 +18,6 @@ namespace Senai.M_AutoPecas.WebApi.Domains
         public int? IdUsuario { get; set; }
 
         public Usuarios IdUsuarioNavigation { get; set; }
-        public ICollection<Pecas> Peças { get; set; }
+        public ICollection<Pecas> Pecas { get; set; }
     }
 }

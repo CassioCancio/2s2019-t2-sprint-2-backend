@@ -14,8 +14,7 @@ namespace Senai.M_AutoPecas.WebApi.Repositories
         {
             using (AutoPecasContext ctx = new AutoPecasContext())
             {
-                Usuarios UsuarioBuscado = ctx.Usuarios.FirstOrDefault(x => x.Email == login.Email && x.Senha == login.Senha);
-                return UsuarioBuscado;
+                return ctx.Usuarios.FirstOrDefault(x => x.Email == login.Email && x.Senha == login.Senha);
             }
         }
     }

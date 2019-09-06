@@ -17,7 +17,7 @@ CREATE TABLE Fornecedores(
 	IdUsuario INT FOREIGN KEY REFERENCES Usuarios(IdUsuario)
 );
 
-CREATE TABLE Peças(
+CREATE TABLE Pecas(
 	IdPeca INT PRIMARY KEY IDENTITY,
 	CodigoPeca VARCHAR(200) NOT NULL UNIQUE,
 	Descricao TEXT NOT NULL,
@@ -35,7 +35,7 @@ INSERT INTO Fornecedores (CNPJ,RazaoSocial,NomeFantasia,Endereco,IdUsuario)
 VALUES	('34882473000181','Pecas de Carro de qualidade','AutoPecas','Av. Paulista 2048',1),
 		('74127405000121','Pecas de inox de alto nível','InoxPecas','Av. Faria Lima 3009',2)
 
-INSERT INTO Peças (CodigoPeca,Descricao,Peso,PrecoCusto,PrecoVenda,IdFonecedor)
+INSERT INTO Pecas (CodigoPeca,Descricao,Peso,PrecoCusto,PrecoVenda,IdFonecedor)
 VALUES	('QI123D22NCK332XCE278688P6FI64S','Para choque',1600,50,100,1),
 		('445CK543554352XCE278688P6FI64S','Escapamento',5000,500,750,1),
 		('FF56523D22NCK332XCE27865454545','Porta para FIAT',10000,2000,3000,2)

@@ -35,15 +35,15 @@ namespace Senai.M_AutoPecas.WebApi.Domains
                 entity.HasKey(e => e.IdFornecedor);
 
                 entity.HasIndex(e => e.Cnpj)
-                    .HasName("UQ__Forneced__AA57D6B4E3F38398")
+                    .HasName("UQ__Forneced__AA57D6B4EA65DD7A")
                     .IsUnique();
 
                 entity.HasIndex(e => e.Endereco)
-                    .HasName("UQ__Forneced__4DF3E1FFC40DFFB0")
+                    .HasName("UQ__Forneced__4DF3E1FF6960A888")
                     .IsUnique();
 
                 entity.HasIndex(e => e.RazaoSocial)
-                    .HasName("UQ__Forneced__448779F0949D9850")
+                    .HasName("UQ__Forneced__448779F0941A10C8")
                     .IsUnique();
 
                 entity.Property(e => e.Cnpj)
@@ -70,7 +70,7 @@ namespace Senai.M_AutoPecas.WebApi.Domains
                 entity.HasOne(d => d.IdUsuarioNavigation)
                     .WithMany(p => p.Fornecedores)
                     .HasForeignKey(d => d.IdUsuario)
-                    .HasConstraintName("FK__Fornecedo__IdUsu__59FA5E80");
+                    .HasConstraintName("FK__Fornecedo__IdUsu__5070F446");
             });
 
             modelBuilder.Entity<Pecas>(entity =>
@@ -78,7 +78,7 @@ namespace Senai.M_AutoPecas.WebApi.Domains
                 entity.HasKey(e => e.IdPeca);
 
                 entity.HasIndex(e => e.CodigoPeca)
-                    .HasName("UQ__Peças__B9F4770F67F35F09")
+                    .HasName("UQ__Pecas__B9F4770F03A65782")
                     .IsUnique();
 
                 entity.Property(e => e.CodigoPeca)
@@ -91,9 +91,9 @@ namespace Senai.M_AutoPecas.WebApi.Domains
                     .HasColumnType("text");
 
                 entity.HasOne(d => d.IdFonecedorNavigation)
-                    .WithMany(p => p.Peças)
+                    .WithMany(p => p.Pecas)
                     .HasForeignKey(d => d.IdFonecedor)
-                    .HasConstraintName("FK__Peças__IdFoneced__5DCAEF64");
+                    .HasConstraintName("FK__Pecas__IdFoneced__5441852A");
             });
 
             modelBuilder.Entity<Usuarios>(entity =>
@@ -101,11 +101,11 @@ namespace Senai.M_AutoPecas.WebApi.Domains
                 entity.HasKey(e => e.IdUsuario);
 
                 entity.HasIndex(e => e.Email)
-                    .HasName("UQ__Usuarios__A9D10534C3F39D9D")
+                    .HasName("UQ__Usuarios__A9D1053453A3F6F9")
                     .IsUnique();
 
                 entity.HasIndex(e => e.Senha)
-                    .HasName("UQ__Usuarios__7ABB9731BE1FDE66")
+                    .HasName("UQ__Usuarios__7ABB9731677F8037")
                     .IsUnique();
 
                 entity.Property(e => e.Email)

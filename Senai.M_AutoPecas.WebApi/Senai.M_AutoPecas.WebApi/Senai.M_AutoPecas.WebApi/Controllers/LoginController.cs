@@ -42,13 +42,13 @@ namespace Senai.M_AutoPecas.WebApi.Controllers
                     new Claim(JwtRegisteredClaimNames.Jti, Usuario.IdUsuario.ToString()),
                 };
 
-                var key = new SymmetricSecurityKey(System.Text.Encoding.UTF8.GetBytes("inlock-chave-autenticacao"));
+                var key = new SymmetricSecurityKey(System.Text.Encoding.UTF8.GetBytes("autopecas-chave-autenticacao"));
 
                 var creds = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);
 
                 var token = new JwtSecurityToken(
-                    issuer: "Inlock.WebApi",
-                    audience: "Inlock.WebApi",
+                    issuer: "M_AutoPecas.WebApi",
+                    audience: "M_AutoPecas.WebApi",
                     claims: claims,
                     expires: DateTime.Now.AddMinutes(30),
                     signingCredentials: creds);
