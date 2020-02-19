@@ -67,6 +67,9 @@ public class Startup
                 c.SwaggerEndpoint("/swagger/v1/swagger.json", "M_Optus API V1");
             });
 
+//          app.UseStaticFiles();
+
+
             app.UseAuthentication();
 
             app.UseMvc();
